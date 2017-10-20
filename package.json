@@ -53,14 +53,13 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "release": "webpack --progress --hide-modules --config  ./build/webpack.release.js && NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js && webpack --progress --hide-modules --config  ./build/webpack.release.full.js && NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.full.min.js",
-    "prepublish": "yarn run lint && yarn run test && yarn run build"
+    "release": "webpack --progress --hide-modules --config  ./build/webpack.release.js && NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js && webpack --progress --hide-modules --config  ./build/webpack.release.full.js && NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.full.min.js"
   },
   "dependencies": {
     "lodash.merge": "^4.6.0"
   },
   "peerDependencies": {
-    "chart.js": "2.7.0",
+    "enlighten-chart.js": "2.7.0",
     "vue": "2.5.2"
   },
   "devDependencies": {
@@ -73,7 +72,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-runtime": "^6.23.0",
     "chai": "^3.5.0",
-    "chart.js": "2.7.0",
+    "enlighten-chart.js": "2.7.0",
     "chromedriver": "^2.28.0",
     "connect-history-api-fallback": "^1.1.0",
     "cross-env": "^3.2.4",
