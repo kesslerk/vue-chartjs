@@ -1,4 +1,4 @@
-import Chart from 'chart.js'
+import Chart from 'enlighten-chart.js'
 import { mergeOptions } from '../helpers/options'
 
 export default {

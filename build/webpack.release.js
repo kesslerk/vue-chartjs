@@ -23,7 +23,7 @@ module.exports = {
     umdNamedDefine: true
   },
   externals: {
-    'chart.js': 'chart.js'
+    'enlighten-chart.js': 'enlighten-chart.js'
   },
   module: {
     preLoaders: [
